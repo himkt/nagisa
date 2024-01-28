@@ -80,7 +80,7 @@ def switch_install_requires():
     #    return ['six', 'numpy', 'DyNet38']
     #else:
     #    return ['six', 'numpy', 'DyNet']
-    return ['six', 'numpy', 'DyNet38; python_version>=3.8', 'DyNet; python_version<3.8']
+    return ['six', 'numpy', 'DyNet38; python_version>=\'3.8\'', 'DyNet; python_version<\'3.8\'']
 
 
 setup(
